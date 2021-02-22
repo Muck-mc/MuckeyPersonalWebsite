@@ -1,0 +1,34 @@
+.top{
+width: 100%;
+margin-top: 0;
+margin-bottom: 0;
+}
+.mid{
+
+}
+.bottom{
+
+}
+.rightCloud{
+  position: relative;
+  top: 140px;
+  width: 10%;
+  height: 5%;
+}
+.leftCloud{
+  position: relative;
+  top: 125px;
+  right: 25%;
+  height: 10%;
+  width: 20%;
+}
+body{
+  text-align: center;
+  background-color: #d6efc7;
+}
+.skillImg{
+  border-radius: 50%;
+}
+#heading{
+  margin-top: 25%;
+}
