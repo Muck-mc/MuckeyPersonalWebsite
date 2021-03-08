@@ -1,34 +1,59 @@
+
+h1{
+  font-size: 5.625rem;
+  font-family: 'Dancing Script', cursive;
+  color:#0a043c;
+}
+h4{
+  font-family: 'Merriweather', serif;
+  font-size: 2rem;
+  color: #0a043c;
+  line-height: 2;
+}
+h3{
+  font-family: 'Lato', sans-serif;
+  color: #0a043c;
+}
+h2{
+  font-family: 'Lato', sans-serif;
+  color: #0a043c;
+}
+p{
+  font-family: 'Lato', sans-serif;
+  color: #0a043c;
+}
+
 .top{
 width: 100%;
 margin-top: 0;
 margin-bottom: 0;
 }
-.mid{
-
-}
-.bottom{
-
-}
 .rightCloud{
   position: relative;
-  top: 140px;
+  top: 8.75em;
   width: 10%;
   height: 5%;
 }
 .leftCloud{
   position: relative;
-  top: 125px;
+  top: 9.5em;
   right: 25%;
   height: 10%;
   width: 20%;
 }
-body{
-  text-align: center;
-  background-color: #d6efc7;
-}
+
 .skillImg{
   border-radius: 50%;
 }
+.bottom-container{
+  margin-top: auto;
+  clear: both;
+  width: 100%;
+}
 #heading{
-  margin-top: 25%;
+  margin: 100px auto 0 auto;
+  font-family: 'Dancing Script', cursive;
+}
+hr{
+  background-color: #78b0e1
 }

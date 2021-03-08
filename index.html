@@ -6,117 +6,153 @@
   <title>Joshua Muckey</title>
   <link rel="stylesheet" href="css/styles.css">
   <link rel="icon" href="favicon.ico">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lato&family=Merriweather&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
 </head>
 
-<body>
-  <div class="top">
-    <h1 id="heading" a>I'm Joshua.</h1>
-    <p>a programmer</p>
-    <img class="leftCloud"src="media/cloud.png" alt="cloud-png" >
-    <img class="rightCloud"src="media/cloud.png" alt="cloud-png">
-    <img src="media/Landscape.png" alt="Landscape-png" height="40%" width="100%" style="background-color: #d6efc7">
-
+<body style="margin: 0;
+text-align: center;
+background-color: #c2f8ff;
+font-family: Sans-serif;">
+  <div id="heading" class="top">
+    <h1 a>I'm Joshua.</h1>
+    <h4 style="padding-bottom: 6%">a programmer</h4>
+    <img class="img-fluid m-0 p-0" src="media/Landscape.png" alt="Landscape-png" height="40%" width="100%">
   </div>
-  <div class="middle-container">
-    <div class="profile">
-      <img src="media/profilePic.png" alt="profileimg">
+  <div class="middle-container conatiner-fluid">
+    <nav class="navbar navbar-dark navbar-expand-lg sticky-top" style="background-color: #1A171B;">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#heading">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#profile">Profile</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#education">College</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#skills">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#projects">Projects</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div id="profile" class="profile container-fluid">
+      <img src="media/profilePic.png" alt="profileimg" style="padding-top:.5rem;">
       <h2>Hello.</h2>
       <p>I am a inspiring developer. I am an Infantrymen in the U.S. Army. I love snowboarding and video games.</p>
     </div>
-    <hr>
-    <div class="skills">
-      <h2>My Skills.</h2>
-      <div class="skill-row">
-        <img class="skillImg" src="media/desk.gif" alt="code-gif" height="30%" width="30%">
-        <h3>Coding</h3>
-        <p>I am currently a student. I have experience in Front-end development, Back-end development, and databases.</p>
+    <hr id="education">
+    <div class="conatiner-fluid">
+      <div class="row">
+        <div class="col-12">
+          <h2>My Education.</h2>
+        </div>
+        <div class=" mx-auto col-md-6">
+          <img class="w-50 img-fluid" src="https://upload.wikimedia.org/wikipedia/commons/2/22/BarryUniversity_Seal.png" alt="barryseal-img">
+          <h3>Barry University</h3>
+          <p>Attented 2013-2015 and received a Bachlors in Biology</p>
+        </div>
+        <div class="mx-auto col-md-6">
+          <img class="w-50 img-fluid" src="https://upload.wikimedia.org/wikipedia/en/0/06/Suffolk_County_Community_College_Seal.png" alt="suffolk-img">
+          <h3>Suffolk Community College</h3>
+          <p>Attented 2019 to 2021</p>
+        </div>
       </div>
-      <div class="skill-row">
-        <img class="skillImg"src="https://cdn.dribbble.com/users/45405/screenshots/2452509/01squashstretch.gif" alt="squashStretch-gif" height="30%" width="30%">
-        <h3>Animation</h3>
-        <p>I am a self taught animator. I do it as a hobby and enjoy the simplicity of squash and stretch.</p>
+    </div>
+    <hr id="skills">
+    <div class="conatiner-fluid">
+      <div class="row">
+        <div class="col-12">
+          <h2>My Skills.</h2>
+          <img class="rounded-circle img-fluid" src="media/desk.gif" alt="code-gif" width="40%">
+        </div>
+        <div class="container-fluid">
+          <h4>I have Developer and Full Stack experience.</h4>
+          <div class="row">
+            <div class="mx-auto col-md-6">
+              <p>Front-End: HTML, CSS, and Javascript.</p>
+            </div>
+            <div class="mx-auto col-md-6">
+              <p>
+                Back-End/Application Development: Java, and C#.
+              </p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="mx-auto col-md-6">
+              <p>
+                Databases: Firebase, and MySQL.
+              </p>
+            </div>
+            <div class="mx-auto col-md-6">
+              <p>
+                APIs: Selenium, Javafx, and BioJava.
+              </p>
+            </div>
+          </div>
+        </div>
+        <hr>
+      </div>
+    </div>
+    <hr id="projects">
+    <div class="conatiner-fluid">
+      <div class="row">
+        <div class="col-12">
+          <h2>My Projects.</h2>
+        </div>
+        <div class="container-fluid">
+          <div class="mx-auto row">
+            <div class="col-xl-4 card">
+              <div class="card-body">
+                <img class="card-img-top rounded" src="media/logo.jpg" alt="vf-jpg">
+                <h4 class="card-title">Vaccine Finder</h4>
+                <p class="card-text">Hackathon Best Pandemic Innovation Winner</p>
+                <p class="card-text">Website to combine vaccine resources/databases to one location to make it easier for elders and people with disabilities to get an appointment.</p>
+              </div>
+            </div>
+            <div class="col-xl-4 card">
+              <div class="card-body">
+                <img class="card-img-top rounded" src="media/TrailApp.png" alt="trail-png">
+                <h4 class="card-title">Trail App</h4>
+                <p class="card-text">AllTrails inspired Trail Finder</p>
+                <p class="card-text">JavaFx application to find a trail in the Long Island Area.</p>
+              </div>
+            </div>
+            <div class="col-xl-4 card">
+              <div class="card-body">
+                <img class="card-img-top rounded" src="media/CourseAssess.png" alt="trail-png">
+                <h4 class="card-title">Course Assessement Project</h4>
+                <p class="card-text">Research Projectr</p>
+                <p class="card-text">A Standardized Test generator for assessement of students</p>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
     <hr>
-    <div class="contact-me">
-      <h2>Get In Touch</h2>
-      <h3>Lorem ipsum dolor sit amet, non elit.</h3>
-      <p>Lorem ipsum dolor sit amet, in quis, aenean amet. Phasellus sodales, tellus donec dui, ornare erat.</p>
-      <a class="btn" href="mailto:name@email.com">CONTACT ME</a>
+    <div class="bottom-container">
+      <h4>Get In Touch</h4>
+      <button type="button" class="btn btn-outline-dark"><a class="btn" href="mailto:muckj79@mail.sunysuffolk.edu">CONTACT ME</a></button>
+      <br>
+      <a class="footer-link" href="https://www.linkedin.com/in/joshua-muckey-021240112/">LinkedIn</a>
+      <a class="footer-link" href="https://github.com/Muck-mc">Github</a>
+      <p>© 2018 Joshua Muckey.</p>
     </div>
   </div>
-
-
-  <div class="bottom-container">
-    <a class="footer-link" href="https://www.linkedin.com/">LinkedIn</a>
-    <a class="footer-link" href="https://twitter.com/">Twitter</a>
-    <a class="footer-link" href="https://www.appbrewery.co/">Website</a>
-    <p>© 2018 Name Surname.</p>
-  </div>
-
 </body>
 
 </html>
-<!--
-<table cellspacing="20">
-  <tr>
-    <td><img src="imgs/profilePic.png" alt="joshua muckey profile picture"></td>
-    <td>
-      <h1><a href="https://www.linkedin.com/in/joshua-muckey-021240112/">Joshua Muckey</a></h1>
-      <p><em><strong>Coding</strong> Infantrymen</em></p>
-      <p> I am a up and coming developer. who fires big guns on the weekends.</p>
-    </td>
-  </tr>
-</table>
-<hr>
-<h3>Education</h3>
-<ul>
-  <li><a
-      href="https://online.barry.edu/online/sap/?lsid=bing&lssid=barry_all_all_x_sr_gen&groupid=1230353603342213&campid=314208369&type=e&network=o&device=c&adid=&ptid=&ad_pos=&fdid=&tgid=kwd-76897175773057:loc-4116&lphys=98082&linst=&model=&sitetarg=&gclid=&msclkid=d1387431b27b16bb63e1141c8362de6d&utm_source=bing&utm_medium=cpc&utm_campaign=barry_all_all_x_sr_gen-B-X-E-X-ALL&utm_term=barry%20u&utm_content=Barry">Barry
-      University</a></li>
-  <li><a href="https://www.sunysuffolk.edu/">Suffolk Community College</a></li>
-</ul>
-<hr>
-<h3>Work Experiences</h3>
-<table cellspacing=10>
-  <thead>
-    <th>Dates</th>
-    <th>Work</th>
-  </thead>
-  <tbody>
-    <td>2018-Present</td>
-    <td>Infantrymen</td>
-  </tbody>
-</table>
-<hr>
-<h3>Skills</h3>
-<table cellspacing=10>
-  <tbody>
-    <tr>
-      <td>Java</td>
-      <td> &#11088 &#11088 &#11088 </td>
-    </tr>
-    <tr>
-      <td>Video Games</td>
-      <td> &#11088 &#11088 &#11088 </td>
-    </tr>
-    <tr>
-      <td>C#</td>
-      <td>&#11088 &#11088 &#11088</td>
-    </tr>
-    <tr>
-      <td>Animation</td>
-      <td>&#11088</td>
-    </tr>
-  </tbody>
-</table>
-<h3>Hobbies</h3>
-<ol>
-  <li>Excerise</li>
-  <li>Video Games</li>
-  <li>Animation</li>
-  <li>Dogs</li>
-</ol>
-
-<a href="contacts.html">Contact Me</a>
--->
